@@ -253,28 +253,6 @@
 .store img:hover{
     transform: scale(1.06);
 }
-@media (max-width:800px){
-    .container{
-        grid-template-columns: auto;
-    }
-}
-@media (max-width:800px){
-    .container{
-        grid-template-columns: repeat(2,auto);
-    }
-    .footer{
-        grid-template-columns: repeat(2,auto);
-    }
-}
-@media (max-width:600px){
-    .container{
-        grid-template-columns: auto;
-        justify-items: center;
-    }
-    .footer{
-        grid-template-columns: auto;
-        justify-items: center;
-    }
-}
+
 
 
