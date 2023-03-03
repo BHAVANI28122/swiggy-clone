@@ -254,9 +254,7 @@
 .store img:hover{
     transform: scale(1.06);
 }
-#menu{
-    display: none;
-}
+
 @media(max-width:600px){
     ._8pSp-{
         width: 20px;
@@ -265,10 +263,7 @@
         grid-template-columns: auto;
         justify-items: center;
     }
-    #menu{
-        display: block;
-        color: #000;
-    }
+  
     .left{
         font-size: 14px;
     }
